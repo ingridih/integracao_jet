@@ -1,4 +1,4 @@
-Importando adquirir as credenciais com a propria transportadora. 
+Importante adquirir as credenciais com a propria transportadora. 
 Os dados do arquivos são ficticios, não irão funcionar. 
 
   A Function CreateOrder faz a integração com a transportadora. 
