@@ -326,7 +326,7 @@ function criar_por_nota($privateKey, $apiAccount, $CustomerCode, $BusinessSignat
 		"name":"'.$ClientData->dest->xNome.'",
 		"postCode":"'.$ClientData->dest->enderDest->CEP.'",
 		"mailBox":"'.$ClientData->dest->email.'",
-		"taxNumber":"'.$ClientData->dest->CPF.'",
+		"taxNumber":"'.(isset($ClientData->dest->CPF) ? $ClientData->dest->CPF : $ClientData->dest->CNPJ).'",
 		"mobile":"'.((isset($ClientData->dest->enderDest->fone) and $ClientData->dest->enderDest->fone != '') ? $ClientData->dest->enderDest->fone : '99999999').'",
 		"phone":"'.((isset($ClientData->dest->enderDest->fone) and $ClientData->dest->enderDest->fone != '') ? $ClientData->dest->enderDest->fone : '99999999').'",
 		"prov":"'.$ClientData->dest->enderDest->UF.'",
