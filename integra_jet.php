@@ -148,7 +148,7 @@ function createorder($privateKey, $apiAccount, $CustomerCode, $BusinessSignature
 	$pedido = '{
 		"customerCode":"'.$CustomerCode.'", 
 		"digest":"'.$BusinessSignature.'",
-		"txlogisticId":"RENOVABE-3763528",
+		"txlogisticId":"pedido-1111128",
 		"expressType":"EZ",
 		"orderType":"2",
 		"serviceType":"02",
@@ -159,15 +159,15 @@ function createorder($privateKey, $apiAccount, $CustomerCode, $BusinessSignature
 		"postCode":"86701474",
 		"mailBox":"no-email@mail.com.br",
 		"taxNumber":"06275524000171",
-		"mobile":"43991090707",
-		"phone":"43991090707",
+		"mobile":"1212121212",
+		"phone":"121212122",
 		"prov":"PR",
 		"city":"Arapongas",
 		"street":"Rua Drongo",
 		"streetNumber":"162",
-		"address":"Rua Drongo, 162, Sala 4",
+		"address":"Rua blablalbla, Sala 4",
 		"areaCode":"43",
-		"ieNumber":"9085799417",
+		"ieNumber":"1111111",
 		"area":"Vila Cascata"
 		},
 		"receiver":{
